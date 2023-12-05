@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    min-height: 100vh;
+    background: linear-gradient(109.6deg, rgb(185, 212, 242) 11.2%, rgb(244, 210, 226) 100.3%);
+    padding: 10px;
+}
+.header
+{  
+    width:540px;
+    background: white;
+    margin:100px auto 20px;
+    padding:40px 30px 70px;
+    border-radius: 30px;
+    text-align: center;
+}
+h1
+{
+    color: #405EA0;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.add
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #476383;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+
+}
+input
+{
+    flex:1;
+   border: none;
+   outline:none;
+   background: transparent;
+   padding: 10px;
+   font-weight: 14px;
+}
+button
+{
+    border:none;
+    outline: none;
+    background: #6A1F63;
+    color: white;
+    padding: 16px 50px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover
+{  
+    outline: auto;
+    background: #edeef0;
+    border-color: #6A1F63;
+    border: 1px;
+    color: #6A1F63;
+
+}
+ul li 
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 18px;
+}
+ul li button 
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform:translateY(-50%);
+}
