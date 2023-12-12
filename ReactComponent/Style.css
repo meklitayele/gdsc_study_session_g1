@@ -1,0 +1,18 @@
+h1
+{
+  text-align: center;
+  margin: 0;
+}
+.list-group
+{
+    background-color: #f0f0f0;
+    padding: 10px;
+    
+    
+}
+.list-group li
+{
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 0 9px;
+}
